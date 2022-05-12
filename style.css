@@ -25,14 +25,17 @@ section {
 
 /*  estilo navegador */
 
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 10px;
     background-color: #ffff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 5%;
+    padding: 40px
+
     
 }
 
@@ -94,16 +97,13 @@ nav ul li a{
 }
 
 .conteudo-texto {
-    line-height: 0px;
-    margin: 45px 0px 25px;
-
-}
-
-.conteudo-texto {
     position: absolute;
     left: 17%;
     top: 44%;
     transform: translate(-13%, -42%);
+    line-height: 0px;
+    margin: 45px 0px 25px;
+    padding-right: 40px;
 }
 
 .conteudo-texto button {
@@ -143,6 +143,7 @@ button:active {
     bottom: 60px;
     left: 78%;
     transform: translatex(-70%);
+    padding: 40px;
 }
 
 
@@ -157,6 +158,7 @@ button:active {
     position: relative;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
 }
 
 .texto-sobre {
@@ -171,7 +173,7 @@ button:active {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
     display: flexbox;
-    left: 75%;
+    left: 39%;
     bottom: 60px;
     top: 10px;
     position: relative;
@@ -221,7 +223,8 @@ button:active {
     margin: auto;
     background-color: #2e6f8d;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
-    
+    position: relative;
+    top: 30px;   
    
     
 }
@@ -232,6 +235,7 @@ button:active {
     gap: 1em;
     grid-auto-columns: 100%;
     margin-top: -40px;
+    
     
 }
 
@@ -273,7 +277,8 @@ button:active {
 }
 
 footer {
-    text-align: center;
-    margin-top: 10px;
+    left: 46%;
+    position: relative;
+    top: 50px;
 }
 
