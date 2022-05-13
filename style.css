@@ -41,6 +41,7 @@ nav {
 
 nav ul{ 
     display: flex;
+    padding: 40px;
 
 }
 
@@ -50,7 +51,7 @@ nav ul li a{
     color: #505050;
     font-size: 15px;
     font-weight: 700;
-    padding: 40px;
+    
 
 }
 
@@ -166,7 +167,8 @@ button:active {
 .texto-sobre {
     color: #f1ecec;
     width: 550px;
-
+    position: absolute;
+    left: 10%;
 }
 
 .projetos {
@@ -189,8 +191,9 @@ button:active {
 
 .img2 {
     width: 400px;
-    position: relative;
-    left: 7%;
+    position: absolute;
+    left: 45%;
+    top: 15px;
 
 }
 
@@ -215,6 +218,8 @@ button:active {
     font-family: 'Times New Roman', Times, serif;
     background-color: #000000;
 }
+
+/* Formulario*/
 
 
 .form {
@@ -290,6 +295,8 @@ footer {
 @media screen and (max-width: 850px) {
     .imgbg {
         width: 100px 100px;
+        top: 40px;
+        position: absolute;
     }
 }
 
@@ -303,10 +310,36 @@ footer {
 
     }
     .conteudo-sobre {
-        width: 550px;
+        width: 400px;
         margin-top: 300px;
         position: relative;
 
     }
+
+    .texto-sobre {
+        width: 350px;
+    }
+
+    .img2 {
+        visibility: hidden;
+        
+        
+    }
+    .nav {
+        display: flex;
+        position: relative;
+        right: 50px;
+        width: 500px;
+        margin-left: 10px;
+        
+        
+        
+    }
 }
+
+
+
+
+
+
 
