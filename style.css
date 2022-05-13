@@ -2,6 +2,8 @@ body {
     background-color: #f6f5f5;
     margin-right: 0px;
     padding: 0px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 
 
 }
@@ -34,8 +36,9 @@ nav {
     height: 10px;
     background-color: #ffff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 40px
-
+    padding: 40px;
+    
+    
     
 }
 
@@ -302,7 +305,8 @@ footer {
 
 @media screen and (max-width: 850px) {
     .conteudo-texto {
-        width: 350px;
+        width: 100%;
+        height: auto;
         margin-top: 300px;
         position: relative;
 
@@ -332,10 +336,13 @@ footer {
         width: 500px;
         margin-left: 10px;
         
+
+        
         
         
     }
 }
+
 
 
 
