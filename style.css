@@ -50,6 +50,7 @@ nav ul li a{
     color: #505050;
     font-size: 15px;
     font-weight: 700;
+    padding: 40px;
 
 }
 
@@ -158,12 +159,14 @@ button:active {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    
+    
 }
 
 .texto-sobre {
     color: #f1ecec;
     width: 550px;
+
 }
 
 .projetos {
@@ -280,5 +283,30 @@ footer {
     left: 46%;
     position: relative;
     top: 50px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 850px) {
+    .imgbg {
+        width: 100px 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .conteudo-texto {
+        width: 350px;
+        margin-top: 300px;
+        position: relative;
+
+        
+
+    }
+    .conteudo-sobre {
+        width: 550px;
+        margin-top: 300px;
+        position: relative;
+
+    }
 }
 
