@@ -29,6 +29,10 @@ section {
 
 
 
+.btn {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -314,33 +318,59 @@ footer {
 
     }
     .conteudo-sobre {
-        width: 400px;
+        width: 250x;
         margin-top: 300px;
         position: relative;
+        height: 470px;
 
     }
 
     .texto-sobre {
-        width: 350px;
+        width: 220px;
+        text-align: center;
     }
 
     .img2 {
-        visibility: hidden;
+        display: none;
         
         
     }
-    .nav {
-        display: flex;
-        position: relative;
-        right: 50px;
-        width: 500px;
-        margin-left: 10px;
-        
+   
 
-        
-        
-        
+    .btn {
+        display: block;
     }
+
+
+
+    .projetos {
+        display: none;
+
+
+
+    }
+
+    .form {
+        width: 200px;
+    }
+    
+    #nav.active #menu {
+        display: block;
+
+    }
+
+    #menu {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: transparent;
+        height: calc(100vh - 70px);
+        z-index: 1000;
+        display: none;
+    }
+
+    
 }
 
 
