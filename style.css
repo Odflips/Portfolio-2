@@ -179,13 +179,13 @@ button:active {
 }
 
 .projetos {
-    width: 300px;
-    height: 100px;
+    width: 80%px;
+    height: 350px;
     background-color: #d8d8d8;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
     display: flexbox;
-    left: 39%;
+    left: 0%;
     bottom: 60px;
     top: 10px;
     position: relative;
@@ -327,7 +327,12 @@ footer {
 
     .texto-sobre {
         width: 220px;
-        text-align: center;
+        
+    }
+
+    .texto-sob1 {
+        font-size: small;
+        text-align: auto;
     }
 
     .img2 {
@@ -339,7 +344,11 @@ footer {
 
     .btn {
         display: block;
+        border: 2px solid #373636;
+        color: #373636;
     }
+
+    
 
 
 
@@ -355,7 +364,7 @@ footer {
     }
     
     #nav.active #menu {
-        display: block;
+        display: none;
 
     }
 
@@ -369,7 +378,9 @@ footer {
         z-index: 1000;
         display: none;
     }
-
+    .foot {
+        align-items: center;
+    }
     
 }
 
