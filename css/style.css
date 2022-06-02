@@ -251,6 +251,7 @@ button:active {
         height: auto;
         margin-top: 300px;
         position: relative;
+        font-size: small;
 
         
 
@@ -261,6 +262,7 @@ button:active {
         position: relative;
         height: 470px;
         text-align: center;
+        right:15px;
     }
 
     .texto-sobre {
@@ -274,13 +276,13 @@ button:active {
        font-size: small;
        justify-content: center;
        position: relative;
-       left: 20%;
+       left: 4%;
     
     }
 
    #btn5{
        position: relative;
-       left: -7%;
+       right: 27%;
    }
 
     .img2 {
