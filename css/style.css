@@ -19,7 +19,7 @@ a {
 section {
     width: 100%;
     height: 95vh;
-    background-image: url(img/back.png);
+    background-image: url(/img/back.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -174,9 +174,12 @@ button:active {
 .texto-sobre {
     color: #f1ecec;
     width: 550px;
-    position: absolute;
+    position: relative;
     left: 10%;
+    
 }
+
+
 
 .projetos {
     width: 80%px;
@@ -190,6 +193,7 @@ button:active {
     top: 10px;
     position: relative;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
     
 }
@@ -226,76 +230,10 @@ button:active {
     background-color: #000000;
 }
 
-/* Formulario*/
 
 
-.form {
-    font-family: 'Times New Roman', Times, serif;
-    width: 90%;
-    max-width: 400px;
-    border-radius: 1em;
-    padding: 3.5em 1.5em;
-    margin: auto;
-    background-color: #2e6f8d;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
-    position: relative;
-    top: 30px;   
-   
-    
-}
-
-.form-container {
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
-    margin-top: -40px;
-    
-    
-}
-
-.form-tittle {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 1.9rem;
-    margin-bottom: .4em;
-}
-
-.form-input {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    padding: .8rem 1em;
-    outline: none;
-    border: none;
-    border: 1px solid #bbb;
-    border-radius: 2px
-}
-
-.form-input--message {
-    resize: none;
-    padding: 1.8em 1em;
-    margin-bottom: .5em;
-}
 
 
-.form-cta {
-    font-size: 1rem;
-    background-color: #9ad4ec;
-    color: rgb(22, 16, 16);
-    border: none;
-    font-weight: 300;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
-    
-}
-
-footer {
-    left: 46%;
-    position: relative;
-    top: 50px;
-}
 
 /*Media Queries*/
 
@@ -318,22 +256,32 @@ footer {
 
     }
     .conteudo-sobre {
-        width: 250x;
+        width: 240x;
         margin-top: 300px;
         position: relative;
         height: 470px;
-
+        text-align: center;
     }
 
     .texto-sobre {
         width: 220px;
+        position: relative;
+        float: left;
         
     }
 
-    .texto-sob1 {
-        font-size: small;
-        text-align: auto;
+   .text5{
+       font-size: small;
+       justify-content: center;
+       position: relative;
+       left: 20%;
+    
     }
+
+   #btn5{
+       position: relative;
+       left: -7%;
+   }
 
     .img2 {
         display: none;
@@ -362,6 +310,13 @@ footer {
     .form {
         width: 200px;
     }
+
+    #butt {
+        position: relative;
+        left: 130px;
+        top: 40px;
+    }
+    
     
     #nav.active #menu {
         display: none;
@@ -378,9 +333,11 @@ footer {
         z-index: 1000;
         display: none;
     }
-    .foot {
-        align-items: center;
+
+    body {
+        overflow-x: hidden;
     }
+    
     
 }
 

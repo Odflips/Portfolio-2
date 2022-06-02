@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario Com Java Script</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<div>	
+		<h1 class="titulo">Contato</h1>
+	</div>
+	<section>
+		<form action="" class="formulario" id="formulario">
+						
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nome</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nome completo">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Utilize só letras para o nome.</p>
+			</div>
+
+			
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">E-mail</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="email@email.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Deve utilizar só letras, números, pontos, @ _  -.</p>
+			</div>
+	                      
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Telefone</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="13991694235">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">O numero de celular deve conter de 9 - 14 números .</p>
+			</div>
+				
+		
+
+										
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Mensagem</label>
+				<div class="formulario__grupo-input">
+					<textarea class="formulario__input" minlength="10"  placeholder="Digite sua mensagem"  name="" id="mensaje" cols="30" rows="10"></textarea>
+				</div>
+
+				<p class="formulario__input-error">Digite sua mensagem.</p>
+			</div>
+								
+		
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Erro:</b>Por favor, prencha o formulário da forma certa. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulário enviado!</p>
+			</div>
+		</form>
+	</section>
+
+	<script src="javascript/interaçao.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
