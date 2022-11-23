@@ -195,7 +195,7 @@ button:active {
     flex-direction: row;
     justify-content: space-between;
     padding: 40px;
-    left: 190px;
+    left: 100px;
     bottom: 60px;
     top: 10px;
     position: relative;
@@ -223,7 +223,7 @@ button:active {
 
 .land-img{
 
-    height: 250px;
+    height: 150px;
     display:flex;
     box-shadow: 5px 5px 20px rgba(0,0,0,1);
 }
