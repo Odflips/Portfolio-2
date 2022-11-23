@@ -191,8 +191,10 @@ button:active {
     background-color: #d8d8d8;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
-    display: grid;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
     left: 190px;
     bottom: 60px;
     top: 10px;
@@ -204,6 +206,10 @@ button:active {
     
 }
 
+.titulo-p{
+    position: relative;
+}
+
 .land{
     display: grid;
     flex-direction: row;
@@ -211,12 +217,13 @@ button:active {
     font-size: 30px;
     
     
+    
    
 }
 
 .land-img{
 
-    height: 400px;
+    height: 250px;
     display:flex;
     box-shadow: 5px 5px 20px rgba(0,0,0,1);
 }
@@ -253,6 +260,10 @@ button:active {
     border: none;
     font-family: 'Times New Roman', Times, serif;
     background-color: #000000;
+}
+
+.fut{
+    height: 100px;
 }
 
 
